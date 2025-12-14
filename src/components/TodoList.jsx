@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+const API_URL = "http://66.135.1.147:5000";
 
 function TodoList({ setAuth }) {
   const [todos, setTodos] = useState([]);
