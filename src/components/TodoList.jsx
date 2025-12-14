@@ -84,7 +84,7 @@ function TodoList({ setAuth }) {
     <div style={styles.container}>
       <div style={styles.card}>
         <div style={styles.header}>
-          <h2 style={styles.title}>Todo List</h2>
+          <h2 style={styles.title}>Welcome to Anonying Todo List</h2>
           <div>
             <span style={styles.username}>
               Welcome, {user?.name || "User"}!
