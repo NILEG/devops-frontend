@@ -18,5 +18,6 @@ spec:
         - name: react-frontend
           # Change this if you want a different repository name
           image: umair1987/react-frontend:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 80

@@ -35,6 +35,7 @@ pipeline {
         withKubeConfig([credentialsId: kubeconfigId]) {
            sh 'kubectl apply -f deployment.yaml'
            sh 'kubectl apply -f service.yaml'
+           sh 'kubectl rollout restart deployment/react-frontend-deployment'
         }
       }
     }
