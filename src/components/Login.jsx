@@ -32,7 +32,7 @@ function Login({ setAuth }) {
   return (
     <div style={styles.container}>
       <div style={styles.card}>
-        <h2 style={styles.title}>Login</h2>
+        <h2 style={styles.title}>Hello Login</h2>
         {error && <div style={styles.error}>{error}</div>}
         <form onSubmit={handleSubmit} style={styles.form}>
           <input
